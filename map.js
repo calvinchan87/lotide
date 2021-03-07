@@ -26,16 +26,21 @@ const eqArrays = function(array1, array2) {
 };
 
 // TEST CODE
-// assertArraysEqual(eqArrays([1, 2, 3], [1, 2, 3]), true); // => should PASS
-// assertArraysEqual(eqArrays([1, 2, 3], [3, 2, 1]), true); // => should FAIL
-// assertArraysEqual(eqArrays(["1", "2", "3"], ["1", "2", "3"]), true); // => should PASS
-// assertArraysEqual(eqArrays(["1", "2", "3"], ["1", "2", 3]), true); // => should FAIL
-
 console.log(results1);
 console.log(words);
-assertArraysEqual(eqArrays((results1, words)), false); // => should PASS
+assertArraysEqual(eqArrays(results1, words), true); // => should FAIL
 
 const testarray = ['g', 'c', 't', 'm', 't']
 console.log(results1);
 console.log(testarray);
-assertArraysEqual(eqArrays((results1, testarray)), true); // => should PASS
+assertArraysEqual(eqArrays(results1, testarray), true); // => should PASS
+
+const testarray2 = ['g', 'c', 't', 'm', 't', 'd', 'b']
+console.log(results1);
+console.log(testarray2);
+assertArraysEqual(eqArrays(results1, testarray2), true); // => should FAIL
+
+const testarray3 = ['g', 'c', 't', 'm']
+console.log(results1);
+console.log(testarray3);
+assertArraysEqual(eqArrays(results1, testarray3), true); // => should FAIL
