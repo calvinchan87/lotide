@@ -1,5 +1,3 @@
-
-
 const findKey = function (list, ratingsfunc) {
   let arrayvalues = Object.values(list);
   let arraykeys = Object.keys(list);
