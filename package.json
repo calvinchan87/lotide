@@ -1,0 +1,26 @@
+{
+  "name": "@calvinchan87/lotide",
+  "version": "1.0.0",
+  "description": "My lotide project for Lighthouse Labs - March 2021 cohort",
+  "main": "assertArraysEqual.js",
+  "directories": {
+    "test": "test"
+  },
+  "scripts": {
+    "test": "mocha"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/calvinchan87/lotide.git"
+  },
+  "author": "Calvin Chan <calvinchan87@gmail.com>",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/calvinchan87/lotide/issues"
+  },
+  "homepage": "https://github.com/calvinchan87/lotide#readme",
+  "devDependencies": {
+    "chai": "^4.3.3",
+    "mocha": "^8.3.1"
+  }
+}
